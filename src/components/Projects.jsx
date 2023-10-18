@@ -3,7 +3,7 @@ import ProjectItems from './ProjectItems';
 import inventory from '../assets/React App.png';
 import home from '../assets/House.png';
 import ecom from '../assets/ecom.png';
-import hr from '../assets/hrr.png';
+import hr from '../assets/Hrr.png';
 import ai from '../assets/ai.png';
 
 const Projects = () => {
