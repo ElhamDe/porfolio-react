@@ -5,6 +5,7 @@ import home from '../assets/House.png';
 import ecom from '../assets/ecom.png';
 import hr from '../assets/Hrr.png';
 import ai from '../assets/ai.png';
+import fitness from '../assets/fitness.png';
 
 const Projects = () => {
   return (
@@ -21,6 +22,12 @@ const Projects = () => {
           title='Inventory Management Website' 
           link='https://inventory-internship.netlify.app/'
           technology='React JS, Node JS'
+        />
+        <ProjectItems 
+          img={fitness}
+          title='Fitness Website' 
+          link='https://fitness-ed.netlify.app'
+          technology='React JS & API'
         />
         <ProjectItems 
           img={home}
@@ -44,7 +51,7 @@ const Projects = () => {
           img={ai}
           title='Summarize Article AI Website' 
           link='https://summarize-article-ai.netlify.app/'
-          technology='React JS API'
+          technology='React JS & API'
         />
       </div>
     </div>
