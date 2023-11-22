@@ -15,14 +15,14 @@ const Projects = () => {
         Projects
       </h1>
       <p className='text-center py-8'>
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi nesciunt quibusdam odio voluptatum porro quae quis labore quia temporibus dolorem?
+      Welcome to my portfolio! I'm Elham, a passionate <b>Software Developer</b> with a keen interest in Web Development.
       </p>
       <div className='grid sm:grid-cols-2 gap-12'>
         <ProjectItems 
           img={car}
           title='CarHub Website' 
           link='https://carhub-ed.netlify.app/'
-          technology='Next JS && API '
+          technology='Next JS & API '
         />
         <ProjectItems 
           img={fitness}

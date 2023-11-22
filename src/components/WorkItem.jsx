@@ -1,6 +1,6 @@
 import React from 'react'
 
-const WorkItem = ({year, title, duration, details}) => {
+const WorkItem = ({year, title, duration, details, language}) => {
   return (
     <ol className='flex flex-col md:flex-row relative border-1 border-stone-200'>
       <li className='mb-10 ml-4'>
@@ -11,6 +11,9 @@ const WorkItem = ({year, title, duration, details}) => {
           </span>
           <span className='text-lg font-semibold text-[#001b5e]'>
             {title}
+          </span>
+          <span className='my-1 text-sm font-normal leading-none text-stone-400'>
+            {language}
           </span>
           <span className='my-1 text-sm font-normal leading-none text-stone-400'>
             {duration}

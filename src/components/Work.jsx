@@ -6,7 +6,7 @@ const data = [
     year: 2023,
     title: 'Fullstack Developer Intern',
     duration: '3 Months',
-
+    language: 'React JS & Node JS',
     details:
     'I was in an internship at Starlabs - Prishtine, Kosovë from 01.06.2023 – 01.09.2023. Collaborated with a cross-functional team to design and develop responsive web applications using mainly React.js for Frontend Node.js Backend and for Database MongoDB. Integrated dynamic features and user interfaces to enhance user experience. Conducted thorough testing and debugging to ensure smooth functionality and optimal performance. Engaged in code reviews, offering valuable feedback to improve code quality.'
   },
@@ -28,6 +28,7 @@ const Work = () => {
           year={item.year} 
           title={item.title} 
           duration={item.duration} 
+          language={item.language}
           details={item.details}
         />
       ))}
