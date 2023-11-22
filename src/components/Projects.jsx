@@ -6,6 +6,7 @@ import ecom from '../assets/ecom.png';
 import hr from '../assets/Hrr.png';
 import ai from '../assets/ai.png';
 import fitness from '../assets/fitness.png';
+import Car from "../assets/Car-Hub.png";
 
 const Projects = () => {
   return (
@@ -18,10 +19,10 @@ const Projects = () => {
       </p>
       <div className='grid sm:grid-cols-2 gap-12'>
         <ProjectItems 
-          img={inventory}
-          title='Inventory Management Website' 
-          link='https://inventory-internship.netlify.app/'
-          technology='React JS, Node JS'
+          img={car}
+          title='CarHub Website' 
+          link='https://carhub-ed.netlify.app/'
+          technology='Next JS && API '
         />
         <ProjectItems 
           img={fitness}
