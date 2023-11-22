@@ -6,7 +6,7 @@ import ecom from '../assets/ecom.png';
 import hr from '../assets/Hrr.png';
 import ai from '../assets/ai.png';
 import fitness from '../assets/fitness.png';
-import Car from "../assets/Car-Hub.png";
+import car from "../assets/Car-Hub.png";
 
 const Projects = () => {
   return (
