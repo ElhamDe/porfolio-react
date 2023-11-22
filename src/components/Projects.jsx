@@ -22,36 +22,42 @@ const Projects = () => {
           img={car}
           title='CarHub Website' 
           link='https://carhub-ed.netlify.app/'
+          github='https://github.com/ElhamDe/car_showcase'
           technology='Next JS & API '
         />
         <ProjectItems 
           img={fitness}
           title='Fitness Website' 
           link='https://fitness-ed.netlify.app'
+          github='https://github.com/ElhamDe/fitness-react'
           technology='React JS & API'
         />
         <ProjectItems 
           img={home}
           title='Rent Property Website' 
           link='https://elham-rent-a-home.netlify.app'
+          github='https://github.com/ElhamDe/rent-home-react'
           technology='React JS'
         />
         <ProjectItems 
           img={ecom}
           title='E-Commer Website'
           link='https://e-commerce-elham.netlify.app/'
+          github='https://github.com/ElhamDe/js-amazon-clone'
           technology='React JS'
         />
         <ProjectItems 
           img={hr} 
           title='HR Website' 
           link='https://hr-website-elham.netlify.app/'
+          github='https://github.com/ElhamDe/HR-Website'
           technology='HTML, CSS, JS'
         />
         <ProjectItems 
           img={ai}
           title='Summarize Article AI Website' 
           link='https://summarize-article-ai.netlify.app/'
+          github='https://github.com/ElhamDe/AI-Website'
           technology='React JS & API'
         />
       </div>
@@ -59,4 +65,4 @@ const Projects = () => {
   )
 }
 
-export default Projects
+export default Projects;

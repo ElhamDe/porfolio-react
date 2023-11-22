@@ -1,6 +1,6 @@
-import React from 'react'
+import React from 'react';
 
-const ProjectItems = ({img, title, link, technology}) => {
+const ProjectItems = ({img, title, link, github, technology}) => {
   return (
     <div className='relative flex items-center justify-center h-auto w-full shadow-xl shadow-gray-400 rounded-xl group hover:bg-gradient-to-r from-gray-200 to-[#001b5e]'>
       <img src={img} alt="/" className='rounded-xl group-hover:opacity-10'/>
@@ -9,12 +9,17 @@ const ProjectItems = ({img, title, link, technology}) => {
           {title}
         </h3>
         <p className='pb-4 pt-2 text-white text-center'>{technology}</p>
-        <a href={link} target='_blank' rel='noopener noreferrer'>
-          <p className='text-center p-3 rounded-lg bg-white text-gray-700 font-bold cursor-pointer text-lg'>Live</p>
-        </a>
+        <div className='flex flex-row space-x-4 justify-center'>
+          <a href={link} target='_blank' rel='noopener noreferrer'>
+            <p className='w-20 text-center p-3 rounded-lg bg-white text-gray-700 font-bold cursor-pointer text-lg'> Live </p>
+          </a>
+          <a href={github} target='_blank' rel='noopener noreferrer'>
+            <p className='w-20 text-center p-3 rounded-lg bg-white text-gray-700 font-bold cursor-pointer text-lg'> Code </p>
+          </a>
+        </div>
       </div>
     </div>
   )
 }
 
-export default ProjectItems
+export default ProjectItems;
